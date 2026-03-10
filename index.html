@@ -185,6 +185,11 @@
 
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
 
+  @keyframes popIn {
+    from { transform: scale(0.6); opacity: 0; }
+    to   { transform: scale(1);   opacity: 1; }
+  }
+
   /* ===== SOCIAL PROOF TICKER ===== */
   .ticker-wrap {
     background: var(--dark);
@@ -479,9 +484,11 @@
     GRUPO ATIVO AGORA
   </div>
 
-  <p class="hero-badge">🪲 NÃO PRECISO, MAS…</p>
-
-  <h1>TÁ <span>BARATO!</span></h1>
+  <img
+    src="https://raw.githubusercontent.com/npmtabarato/bio/refs/heads/main/Gemini_Generated_Image_9x0nad9x0nad9x0n.png"
+    alt="Não Preciso Mas Tá Barato!"
+    style="width: min(340px, 88vw); border-radius: 50%; box-shadow: 0 8px 40px rgba(0,0,0,0.35); position: relative; animation: popIn .6s cubic-bezier(.34,1.56,.64,1) both;"
+  />
 
   <p class="hero-sub">
     Promoções relâmpago, erros de preço e cupons escondidos —<br>
