@@ -7,10 +7,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
-    --orange: #FF6B00;
+    --orange: #FF8C00;
     --yellow: #FFD000;
     --dark: #1A0A00;
-    --cream: #FFF8EE;
+    --cream: #FFF3D6;
     --red: #E8001D;
     --green-wa: #25D366;
     --blue-tg: #229ED9;
@@ -27,7 +27,7 @@
 
   /* ===== HERO ===== */
   .hero {
-    background: radial-gradient(ellipse at 60% 40%, #ffb300 0%, #FF6B00 55%, #b83a00 100%);
+    background: radial-gradient(ellipse at 60% 40%, #FFD000 0%, #FFA500 45%, #FF6B00 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
     inset: -50%;
     background: repeating-conic-gradient(
       from 0deg,
-      rgba(255,255,255,0.07) 0deg 10deg,
+      rgba(255,255,255,0.10) 0deg 10deg,
       transparent 10deg 20deg
     );
     animation: spin 30s linear infinite;
@@ -243,14 +243,14 @@
     border-radius: 16px;
     padding: 24px 16px;
     text-align: center;
-    border: 2px solid #f0e8da;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    border: 2px solid #FFE0A0;
+    box-shadow: 0 4px 16px rgba(255,140,0,0.10);
     transition: transform .2s, box-shadow .2s;
   }
 
   .card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 28px rgba(255,140,0,0.18);
   }
 
   .card-icon { font-size: 2.4rem; margin-bottom: 10px; }
@@ -324,9 +324,7 @@
   .promo-name { font-weight: 900; font-size: 1rem; }
   .promo-desc { font-size: .82rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
 
-  .promo-price {
-    text-align: right;
-  }
+  .promo-price { text-align: right; }
 
   .promo-price .old {
     font-size: .78rem;
@@ -354,7 +352,7 @@
 
   /* ===== FINAL CTA ===== */
   .final-cta {
-    background: radial-gradient(ellipse at center, #ffb300 0%, #FF6B00 70%);
+    background: radial-gradient(ellipse at center, #FFD000 0%, #FFA500 50%, #FF6B00 100%);
     padding: 70px 20px;
     text-align: center;
   }
